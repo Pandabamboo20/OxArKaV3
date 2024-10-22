@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido a la página oficial de OxArKa.">
+    <title>OxArKa - Página Oficial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #808080; /* Fondo gris */
+            color: #fff;
+            line-height: 1.6;
+            background-image: url('https://i.pinimg.com/564x/91/6a/77/916a77123b722f6678a60016c4ef51cf.jpg'); /* Imagen de fondo */
+            background-size: cover; /* Cubrir todo el fondo */
+            background-position: center; /* Centrar la imagen */
+            opacity: 0.7; /* Aumentar la transparencia de fondo */
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            letter-spacing: 4px;
+            transition: color 0.3s ease; /* Efecto de hover */
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            transition: color 0.3s ease; /* Efecto de hover */
+        }
+
+        /* Hover effect */
+        header h1:hover {
+            color: #ff7e5f;
+        }
+
+        header p:hover {
+            color: #feb47b;
+        }
+
+        /* Buttons */
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .cta-buttons a {
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: white;
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+            transition: background 0.3s ease, box-shadow 0.3s ease; /* Sombra */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+        }
+
+        .cta-buttons a:hover {
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+        }
+
+        /* Biography Section */
+        .bio {
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 40px; /* Ajustar el margen superior */
+        }
+
+        .bio h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .bio p {
+            font-size: 1.5rem; /* Aumentar el tamaño de fuente */
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.8;
+            color: #e0e0e0; /* Cambiar color de fuente */
+        }
+
+        /* Footer */
+        footer {
+            background-color: #141414;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>OxArKa</h1>
+    <p>Bienvenido a la página oficial de OxArKa.</p>
+    <div class="cta-buttons">
+        <a href="https://www.instagram.com/arka73__/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://www.twitch.tv/0xarka" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
+    </div>
+</header>
+
+<section class="bio">
+    <h2>Sobre OxArKa</h2>
+    <p>OxArKa es un apasionado streamer que combina entretenimiento y emoción en cada transmisión. Con un enfoque en la interacción con su comunidad, OxArKa se esfuerza por crear un ambiente divertido y acogedor. ¡Únete a la aventura y forma parte de la comunidad!</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 OxArKa. Todos los derechos reservados.</p>
+    <p>Sigue a OxArKa en sus redes sociales:</p>
+    <p>
+        <a href="https://www.instagram.com/arka73__/" target="_blank">Instagram</a> |
+        <a href="https://www.twitch.tv/0xarka" target="_blank">Twitch</a>
+    </p>
+</footer>
+
+</body>
+</html>
